@@ -9,4 +9,9 @@ then telnet to port 204
 
 only for version <= 100.1.0.0.194
 
-To unlock countrycode, try bsp command.
+To unlock countrycode, try bsp command:
+```
+# bsp set fixed_ctry_code 0
+# bsp commit
+# reboot
+```
